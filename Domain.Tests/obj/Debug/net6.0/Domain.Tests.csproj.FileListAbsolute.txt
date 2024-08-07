@@ -1,0 +1,11 @@
+C:\Users\Mikey\Desktop\C#\FlightTest\Domain.Tests\bin\Debug\net6.0\Domain.Tests.deps.json
+C:\Users\Mikey\Desktop\C#\FlightTest\Domain.Tests\bin\Debug\net6.0\Domain.Tests.dll
+C:\Users\Mikey\Desktop\C#\FlightTest\Domain.Tests\bin\Debug\net6.0\Domain.Tests.pdb
+C:\Users\Mikey\Desktop\C#\FlightTest\Domain.Tests\obj\Debug\net6.0\Domain.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mikey\Desktop\C#\FlightTest\Domain.Tests\obj\Debug\net6.0\Domain.Tests.AssemblyInfoInputs.cache
+C:\Users\Mikey\Desktop\C#\FlightTest\Domain.Tests\obj\Debug\net6.0\Domain.Tests.AssemblyInfo.cs
+C:\Users\Mikey\Desktop\C#\FlightTest\Domain.Tests\obj\Debug\net6.0\Domain.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Mikey\Desktop\C#\FlightTest\Domain.Tests\obj\Debug\net6.0\Domain.Tests.dll
+C:\Users\Mikey\Desktop\C#\FlightTest\Domain.Tests\obj\Debug\net6.0\refint\Domain.Tests.dll
+C:\Users\Mikey\Desktop\C#\FlightTest\Domain.Tests\obj\Debug\net6.0\Domain.Tests.pdb
+C:\Users\Mikey\Desktop\C#\FlightTest\Domain.Tests\obj\Debug\net6.0\ref\Domain.Tests.dll

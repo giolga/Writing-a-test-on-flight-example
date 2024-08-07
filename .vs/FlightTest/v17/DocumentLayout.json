@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mikey\\Desktop\\C#\\FlightTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94C23491-1262-4E65-8BFD-8FB6D8EAE9A5}|FlightTest\\FlightTest.csproj|c:\\users\\mikey\\desktop\\c#\\flighttest\\flighttest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C23491-1262-4E65-8BFD-8FB6D8EAE9A5}|FlightTest\\FlightTest.csproj|solutionrelative:flighttest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F639D89A-E461-4985-BB5B-D9701DFF1AD0}|Domain.Tests\\Domain.Tests.csproj|c:\\users\\mikey\\desktop\\c#\\flighttest\\domain.tests\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F639D89A-E461-4985-BB5B-D9701DFF1AD0}|Domain.Tests\\Domain.Tests.csproj|solutionrelative:domain.tests\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Flight.cs",
+              "DocumentMoniker": "C:\\Users\\Mikey\\Desktop\\C#\\FlightTest\\Domain.Tests\\Flight.cs",
+              "RelativeDocumentMoniker": "Domain.Tests\\Flight.cs",
+              "ToolTip": "C:\\Users\\Mikey\\Desktop\\C#\\FlightTest\\Domain.Tests\\Flight.cs",
+              "RelativeToolTip": "Domain.Tests\\Flight.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T10:47:05.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Mikey\\Desktop\\C#\\FlightTest\\FlightTest\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "FlightTest\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Mikey\\Desktop\\C#\\FlightTest\\FlightTest\\UnitTest1.cs",
+              "RelativeToolTip": "FlightTest\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T10:41:58.85Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
