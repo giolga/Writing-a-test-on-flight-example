@@ -104,3 +104,6 @@ C:\Users\Mikey\Desktop\C#\FlightTest\FlightTest\obj\Debug\net6.0\refint\FlightTe
 C:\Users\Mikey\Desktop\C#\FlightTest\FlightTest\obj\Debug\net6.0\FlightTest.pdb
 C:\Users\Mikey\Desktop\C#\FlightTest\FlightTest\obj\Debug\net6.0\FlightTest.genruntimeconfig.cache
 C:\Users\Mikey\Desktop\C#\FlightTest\FlightTest\obj\Debug\net6.0\ref\FlightTest.dll
+C:\Users\Mikey\Desktop\C#\FlightTest\FlightTest\bin\Debug\net6.0\Domain.dll
+C:\Users\Mikey\Desktop\C#\FlightTest\FlightTest\bin\Debug\net6.0\Domain.pdb
+C:\Users\Mikey\Desktop\C#\FlightTest\FlightTest\obj\Debug\net6.0\FlightTest.sourcelink.json

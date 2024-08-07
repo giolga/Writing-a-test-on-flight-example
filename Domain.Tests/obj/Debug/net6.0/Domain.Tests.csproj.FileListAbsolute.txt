@@ -9,3 +9,4 @@ C:\Users\Mikey\Desktop\C#\FlightTest\Domain.Tests\obj\Debug\net6.0\Domain.Tests.
 C:\Users\Mikey\Desktop\C#\FlightTest\Domain.Tests\obj\Debug\net6.0\refint\Domain.Tests.dll
 C:\Users\Mikey\Desktop\C#\FlightTest\Domain.Tests\obj\Debug\net6.0\Domain.Tests.pdb
 C:\Users\Mikey\Desktop\C#\FlightTest\Domain.Tests\obj\Debug\net6.0\ref\Domain.Tests.dll
+C:\Users\Mikey\Desktop\C#\FlightTest\Domain.Tests\obj\Debug\net6.0\Domain.Tests.sourcelink.json

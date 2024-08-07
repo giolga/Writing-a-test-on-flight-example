@@ -1760,6 +1760,16 @@
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
       },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
       "Domain.Tests/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -5656,6 +5666,11 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    },
     "Domain.Tests/1.0.0": {
       "type": "project",
       "path": "../Domain.Tests/Domain.Tests.csproj",
@@ -5664,6 +5679,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Domain >= 1.0.0",
       "Domain.Tests >= 1.0.0",
       "FluentAssertions >= 6.12.0",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
@@ -5702,6 +5718,9 @@
           "projectReferences": {
             "C:\\Users\\Mikey\\Desktop\\C#\\FlightTest\\Domain.Tests\\Domain.Tests.csproj": {
               "projectPath": "C:\\Users\\Mikey\\Desktop\\C#\\FlightTest\\Domain.Tests\\Domain.Tests.csproj"
+            },
+            "C:\\Users\\Mikey\\Desktop\\C#\\FlightTest\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Mikey\\Desktop\\C#\\FlightTest\\Domain\\Domain.csproj"
             }
           }
         }

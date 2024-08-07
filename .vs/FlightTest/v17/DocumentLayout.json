@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Mikey\\Desktop\\C#\\FlightTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{94C23491-1262-4E65-8BFD-8FB6D8EAE9A5}|FlightTest\\FlightTest.csproj|c:\\users\\mikey\\desktop\\c#\\flighttest\\flighttest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94C23491-1262-4E65-8BFD-8FB6D8EAE9A5}|FlightTest\\FlightTest.csproj|solutionrelative:flighttest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9AE6979A-93D2-4403-9399-0851C810F654}|Domain\\Domain.csproj|c:\\users\\mikey\\desktop\\c#\\flighttest\\domain\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE6979A-93D2-4403-9399-0851C810F654}|Domain\\Domain.csproj|solutionrelative:domain\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F639D89A-E461-4985-BB5B-D9701DFF1AD0}|Domain.Tests\\Domain.Tests.csproj|c:\\users\\mikey\\desktop\\c#\\flighttest\\domain.tests\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F639D89A-E461-4985-BB5B-D9701DFF1AD0}|Domain.Tests\\Domain.Tests.csproj|solutionrelative:domain.tests\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9AE6979A-93D2-4403-9399-0851C810F654}|Domain\\Domain.csproj|c:\\users\\mikey\\desktop\\c#\\flighttest\\domain\\overbookinerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE6979A-93D2-4403-9399-0851C810F654}|Domain\\Domain.csproj|solutionrelative:domain\\overbookinerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94C23491-1262-4E65-8BFD-8FB6D8EAE9A5}|FlightTest\\FlightTest.csproj|c:\\users\\mikey\\desktop\\c#\\flighttest\\flighttest\\flightspecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C23491-1262-4E65-8BFD-8FB6D8EAE9A5}|FlightTest\\FlightTest.csproj|solutionrelative:flighttest\\flightspecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Flight.cs",
-              "DocumentMoniker": "C:\\Users\\Mikey\\Desktop\\C#\\FlightTest\\Domain.Tests\\Flight.cs",
-              "RelativeDocumentMoniker": "Domain.Tests\\Flight.cs",
-              "ToolTip": "C:\\Users\\Mikey\\Desktop\\C#\\FlightTest\\Domain.Tests\\Flight.cs",
-              "RelativeToolTip": "Domain.Tests\\Flight.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\Mikey\\Desktop\\C#\\FlightTest\\Domain\\Flight.cs",
+              "RelativeDocumentMoniker": "Domain\\Flight.cs",
+              "ToolTip": "C:\\Users\\Mikey\\Desktop\\C#\\FlightTest\\Domain\\Flight.cs",
+              "RelativeToolTip": "Domain\\Flight.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T10:47:05.072Z",
+              "WhenOpened": "2024-08-07T11:17:47.494Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\Mikey\\Desktop\\C#\\FlightTest\\FlightTest\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "FlightTest\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\Mikey\\Desktop\\C#\\FlightTest\\FlightTest\\UnitTest1.cs",
-              "RelativeToolTip": "FlightTest\\UnitTest1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "DocumentIndex": 1,
+              "Title": "OverbookinError.cs",
+              "DocumentMoniker": "C:\\Users\\Mikey\\Desktop\\C#\\FlightTest\\Domain\\OverbookinError.cs",
+              "RelativeDocumentMoniker": "Domain\\OverbookinError.cs",
+              "ToolTip": "C:\\Users\\Mikey\\Desktop\\C#\\FlightTest\\Domain\\OverbookinError.cs",
+              "RelativeToolTip": "Domain\\OverbookinError.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T11:15:17.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FlightSpecifications.cs",
+              "DocumentMoniker": "C:\\Users\\Mikey\\Desktop\\C#\\FlightTest\\FlightTest\\FlightSpecifications.cs",
+              "RelativeDocumentMoniker": "FlightTest\\FlightSpecifications.cs",
+              "ToolTip": "C:\\Users\\Mikey\\Desktop\\C#\\FlightTest\\FlightTest\\FlightSpecifications.cs",
+              "RelativeToolTip": "FlightTest\\FlightSpecifications.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-07T10:41:58.85Z",
               "EditorCaption": ""
