@@ -1,0 +1,12 @@
+C:\Users\Mikey\Desktop\C#\FlightTest\Application\bin\Debug\net6.0\Application.deps.json
+C:\Users\Mikey\Desktop\C#\FlightTest\Application\bin\Debug\net6.0\Application.dll
+C:\Users\Mikey\Desktop\C#\FlightTest\Application\bin\Debug\net6.0\Application.pdb
+C:\Users\Mikey\Desktop\C#\FlightTest\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mikey\Desktop\C#\FlightTest\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+C:\Users\Mikey\Desktop\C#\FlightTest\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+C:\Users\Mikey\Desktop\C#\FlightTest\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\Mikey\Desktop\C#\FlightTest\Application\obj\Debug\net6.0\Application.sourcelink.json
+C:\Users\Mikey\Desktop\C#\FlightTest\Application\obj\Debug\net6.0\Application.dll
+C:\Users\Mikey\Desktop\C#\FlightTest\Application\obj\Debug\net6.0\refint\Application.dll
+C:\Users\Mikey\Desktop\C#\FlightTest\Application\obj\Debug\net6.0\Application.pdb
+C:\Users\Mikey\Desktop\C#\FlightTest\Application\obj\Debug\net6.0\ref\Application.dll

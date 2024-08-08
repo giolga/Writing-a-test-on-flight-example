@@ -9,6 +9,7 @@
         //public List<Booking> BookingList { get; set; } = new List<Booking>();
         public int RemainingNumberOfSeats { get; set; }
 
+        public Guid Id { get; }
         public Flight(int seatsCapacity)
         {
             RemainingNumberOfSeats = seatsCapacity;
@@ -17,7 +18,7 @@
         public object? Book(string passengerEmail, int numberOfSeats)
         {
 
-            if(numberOfSeats > this.RemainingNumberOfSeats)
+            if (numberOfSeats > this.RemainingNumberOfSeats)
             {
                 return new OverbookingError();
             }
@@ -31,7 +32,7 @@
 
         public object? CancelBooking(string passengerEmail, int numberOfSeats)
         {
-            if(!bookingList.Any(booking => booking.Email == passengerEmail))
+            if (!bookingList.Any(booking => booking.Email == passengerEmail))
             {
                 return new BookingNotFoundError();
             }
