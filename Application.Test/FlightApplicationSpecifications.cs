@@ -3,21 +3,25 @@ using System.Collections.Generic;
 using FluentAssertions;
 using Data;
 using Domain;
+using Microsoft.EntityFrameworkCore;
 
 namespace Application.Test
 {
     public class FlightApplicationSpecifications
     {
-        [Fact]
-        public void Books_flight()
+        [Theory]
+        [InlineData("chama@gmail.com", 2)]
+        [InlineData("aa@bb.com", 2)]
+        public void Books_flight(string passengerEmail, int numberOfSeats)
         {
-            var entities = new Entities();
+            var entities = new Entities(new DbContextOptionsBuilder<Entities>().UseInMemoryDatabase("Flights").Options);
+
             var flight = new Flight(3);
             entities.Flights.Add(flight);
             var bookingService = new BookingService(entities: entities);
 
-            bookingService.Book(new BookDto(flightId: flight.Id, passengerEmail: "chama@gmail.com", numberOfSeats: 2));
-            bookingService.FindBookings(flight.Id).Should().ContainEquivalentOf(new BookingRm(passengerEmail: "chama@gmail.com", numberOfSeats: 2));
+            bookingService.Book(new BookDto(flight.Id, passengerEmail, numberOfSeats));
+            bookingService.FindBookings(flight.Id).Should().ContainEquivalentOf(new BookingRm(passengerEmail, numberOfSeats));
         }
     }
 
@@ -25,7 +29,7 @@ namespace Application.Test
     {
         public BookingService(Entities entities)
         {
-            
+
         }
 
         public void Book(BookDto bookDto)

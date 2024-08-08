@@ -10,6 +10,9 @@
         public int RemainingNumberOfSeats { get; set; }
 
         public Guid Id { get; }
+
+        [Obsolete("Needed for EF")]
+        Flight() { }
         public Flight(int seatsCapacity)
         {
             RemainingNumberOfSeats = seatsCapacity;
