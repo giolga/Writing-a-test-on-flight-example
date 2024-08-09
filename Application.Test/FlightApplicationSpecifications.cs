@@ -27,30 +27,35 @@ namespace Application.Test
 
     public class BookingService
     {
+        public Entities Entities { get; set; }
         public BookingService(Entities entities)
         {
-
+            Entities = entities;
         }
 
         public void Book(BookDto bookDto)
         {
-
+            var flight = Entities.Flights.Find(bookDto.FlightId);
+            flight.Book(bookDto.PassengerEmail, bookDto.NumberOfseats);
+            Entities.SaveChanges();
         }
 
         public IEnumerable<BookingRm> FindBookings(Guid flightId)
         {
-            return new[]
-            {
-                    new BookingRm(passengerEmail: "chama@gmail.com", numberOfSeats: 2)
-            };
+            return Entities.Flights.Find(flightId).BookingList.Select(booking => new BookingRm(booking.Email, booking.NumberOfSeats));
         }
     }
 
     public class BookDto
     {
+        public Guid FlightId { get; set; }
+        public string PassengerEmail { get; set; }
+        public int NumberOfseats { get; set; }
         public BookDto(Guid flightId, string passengerEmail, int numberOfSeats)
         {
-
+            FlightId = flightId;
+            PassengerEmail = passengerEmail;
+            NumberOfseats = numberOfSeats;
         }
     }
 

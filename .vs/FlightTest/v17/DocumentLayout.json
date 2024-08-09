@@ -38,8 +38,7 @@
               "RelativeToolTip": "Domain\\Flight.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T10:49:22.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T10:49:22.108Z"
             },
             {
               "$type": "Document",
@@ -51,8 +50,7 @@
               "RelativeToolTip": "Data\\Entities.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T10:17:24.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T10:17:24.414Z"
             },
             {
               "$type": "Document",
@@ -64,8 +62,7 @@
               "RelativeToolTip": "Application\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T10:15:42.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T10:15:42.363Z"
             },
             {
               "$type": "Document",
@@ -75,7 +72,7 @@
               "RelativeDocumentMoniker": "Application.Test\\FlightApplicationSpecifications.cs",
               "ToolTip": "C:\\Users\\Mikey\\Desktop\\C#\\FlightTest\\Application.Test\\FlightApplicationSpecifications.cs",
               "RelativeToolTip": "Application.Test\\FlightApplicationSpecifications.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-08T10:15:23.29Z",
               "EditorCaption": ""
