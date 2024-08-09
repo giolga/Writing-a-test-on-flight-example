@@ -30,25 +30,27 @@ namespace Application.Test
             bookingService.Book(new BookDto(flight.Id, passengerEmail, numberOfSeats));
             bookingService.FindBookings(flight.Id).Should().ContainEquivalentOf(new BookingRm(passengerEmail, numberOfSeats));
         }
-
-        [Fact]
-        public void Cancells_booking()
+         
+        [Theory]
+        [InlineData(3)]
+        [InlineData(10)]
+        public void Cancels_booking(int initialCapacity)
         {
             //Given
-            var flight = new Flight(3);
+            var flight = new Flight(initialCapacity);
             entities.Flights.Add(flight);
-            bookingService.Book(new BookDto(flightId: flight.Id, passengerEmail: "el_kumi@gmail.com", 2));
+            bookingService.Book(new BookDto(flightId: flight.Id, passengerEmail: "chama@gmail.com", 2));
 
             //When
             bookingService.CancelBooking(
                     new CancelBookingDto(
-                        flightId: Guid.NewGuid(),
+                        flightId: flight.Id,
                         passengerEmail: "chama@gmail.com",
                         numberOfSeats: 2)
                     );
 
             //Then
-            bookingService.GetRemainingNumberOfSeatsFor(flight.Id).Should().Be(3);
+            bookingService.GetRemainingNumberOfSeatsFor(flight.Id).Should().Be(initialCapacity);
         }
     }
 

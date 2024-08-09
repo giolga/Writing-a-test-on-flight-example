@@ -9,10 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5B205ACF-8F2E-4195-BDC0-88ABAB920726}|Application\\Application.csproj|c:\\users\\mikey\\desktop\\c#\\flighttest\\application\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B205ACF-8F2E-4195-BDC0-88ABAB920726}|Application\\Application.csproj|solutionrelative:application\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B205ACF-8F2E-4195-BDC0-88ABAB920726}|Application\\Application.csproj|c:\\users\\mikey\\desktop\\c#\\flighttest\\application\\cancelbookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B205ACF-8F2E-4195-BDC0-88ABAB920726}|Application\\Application.csproj|solutionrelative:application\\cancelbookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -32,22 +28,9 @@
               "RelativeDocumentMoniker": "Application\\BookingService.cs",
               "ToolTip": "C:\\Users\\Mikey\\Desktop\\C#\\FlightTest\\Application\\BookingService.cs",
               "RelativeToolTip": "Application\\BookingService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABDAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAgwB8AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T09:51:39.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CancelBookingDto.cs",
-              "DocumentMoniker": "C:\\Users\\Mikey\\Desktop\\C#\\FlightTest\\Application\\CancelBookingDto.cs",
-              "RelativeDocumentMoniker": "Application\\CancelBookingDto.cs",
-              "ToolTip": "C:\\Users\\Mikey\\Desktop\\C#\\FlightTest\\Application\\CancelBookingDto.cs",
-              "RelativeToolTip": "Application\\CancelBookingDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T09:50:48.678Z",
               "EditorCaption": ""
             },
             {
@@ -58,7 +41,7 @@
               "RelativeDocumentMoniker": "Application.Test\\FlightApplicationSpecifications.cs",
               "ToolTip": "C:\\Users\\Mikey\\Desktop\\C#\\FlightTest\\Application.Test\\FlightApplicationSpecifications.cs",
               "RelativeToolTip": "Application.Test\\FlightApplicationSpecifications.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAJAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwDcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-08T10:15:23.29Z",
               "EditorCaption": ""
