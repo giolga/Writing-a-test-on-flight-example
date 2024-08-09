@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "Application.Test/1.0.0": {
         "dependencies": {
+          "Application": "1.0.0",
           "Data": "1.0.0",
           "FluentAssertions": "6.12.0",
           "Microsoft.EntityFrameworkCore.InMemory": "6.0.32",
@@ -1198,6 +1199,14 @@
         }
       },
       "xunit.runner.visualstudio/2.4.5": {},
+      "Application/1.0.0": {
+        "dependencies": {
+          "Data": "1.0.0"
+        },
+        "runtime": {
+          "Application.dll": {}
+        }
+      },
       "Data/1.0.0": {
         "dependencies": {
           "Domain": "1.0.0",
@@ -1961,6 +1970,11 @@
       "sha512": "sha512-OwHamvBdUKgqsXfBzWiCW/O98BTx81UKzx2bieIOQI7CZFE5NEQZGi8PBQGIKawDW96xeRffiNf20SjfC0x9hw==",
       "path": "xunit.runner.visualstudio/2.4.5",
       "hashPath": "xunit.runner.visualstudio.2.4.5.nupkg.sha512"
+    },
+    "Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Data/1.0.0": {
       "type": "project",
